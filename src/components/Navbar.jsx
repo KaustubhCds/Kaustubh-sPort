@@ -132,7 +132,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">GeeksForGeeks</NavLogo>
+        <NavLogo to="/">KP</NavLogo>
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
           <MenuRounded style={{ color: "inherit" }} />
@@ -164,7 +164,7 @@ const Navbar = () => {
               Education
             </NavLink>
             <GithubButton
-              href={Bio.github}
+              href="https://github.com/KaustubhCds"
               target="_Blank"
               style={{
                 background: theme.primary,
@@ -177,7 +177,7 @@ const Navbar = () => {
         )}
 
         <ButtonContainer>
-          <GithubButton href={Bio.github} target="_Blank">
+          <GithubButton href="https://github.com/KaustubhCds" target="_Blank">
             Github Profile
           </GithubButton>
         </ButtonContainer>
